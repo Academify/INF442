@@ -1,0 +1,77 @@
+package fig.impl;
+
+import java.awt.Color;
+
+import fig.interfaces.LineInterface;
+
+public class Line extends FigPosColor implements LineInterface {
+	
+	private int posX2;
+	private int posY2;
+	public Line(int posX, int posY, int posX2, int posY2, Color color) {
+		super(posX, posY, color);
+		this.posX2 = posX2;
+		this.posY2 = posY2;
+	}
+
+	@Override
+	public int getPosX() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getPosY() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setPosX(int posX) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setPosY(int posY) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Color getAWTColor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void setAWTColor(Color color) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int getPosX2() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getPosY2() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setPosX2(int posX2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setPosY2(int posY2) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
